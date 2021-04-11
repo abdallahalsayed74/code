@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+class Node
+{
+public:
+    char data;
+    Node* next;
+};
+
+int main()
+{
+    Node* first = new Node();
+    Node* sec = new Node();
+    first->data = 'b';
+    first->next = sec;
+    sec->data = 'f';
+    return 0;
+}
